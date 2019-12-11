@@ -278,6 +278,7 @@ body{
     overflow:hidden;
     background-color: #ccc;
     
+    
 }
 .slideshowarea{
     
@@ -285,7 +286,7 @@ body{
     width: 100000px;
     background-color: #DDD;
     transition: all 3s;
-    
+    margin-bottom: 20px;
 }
 .slide{
     
@@ -327,4 +328,67 @@ body{
     float: left;
     margin-right: 5px;
     cursor: pointer;
+}
+.noticia_area1{
+    width: 430px;
+    height: 420px;
+    
+    float: left;
+}
+.noticia_area2{
+    width: 320px;
+    height: 420px;
+    border: #ccc;
+    float: left;
+    margin-left:3px;
+}
+.noticia_area2 .noticiaImg{
+    height: 80px;
+    width: 80px;
+    border: solid 1px #ccc;
+    padding:5px;
+    float: left;
+}
+.noticiaImg img{
+    src: url();
+    border: 0px;
+    width: 80px;
+    height: 80px;
+}
+.noticia_area2 .noticiaTitulo{
+    margin-left: 6px;
+    font-size: 16px;
+    width: 220px;
+       
+}
+.noticiaItem{
+    text-align: left;
+    height: 95px;
+    
+}
+.noticia_area2 .noticiaInfo{
+    margin-left: 6px;
+    font-size: 12px;
+    width: 220px;
+    color:#999999;
+    float: left;
+
+}
+.noticiaBig{
+    margin-left: 10px;
+    text-align: left;
+}
+.noticiaBig .noticiaImg{
+    width: 384px;
+    height: 222px;
+    
+}
+.noticiaBig .noticiaImg img{
+    width: 384px;
+    height: 222px;
+    
+}
+.noticiaBig .noticiaTitulo{
+    width: 384px;
+    font-size: 30px;
 }
